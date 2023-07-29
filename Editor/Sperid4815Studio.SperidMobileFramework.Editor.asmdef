@@ -2,10 +2,10 @@
     "name": "Sperid4815Studio.SperidMobileFramework.Editor",
     "rootNamespace": "SperidMobileFramework.Editor",
     "references": [],
-    "includePlatforms": [],
-    "excludePlatforms": [
+    "includePlatforms": [
         "Editor"
     ],
+    "excludePlatforms": [],
     "allowUnsafeCode": false,
     "overrideReferences": false,
     "precompiledReferences": [],

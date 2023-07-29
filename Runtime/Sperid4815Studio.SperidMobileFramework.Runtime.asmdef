@@ -2,14 +2,14 @@
     "name": "Sperid4815Studio.SperidMobileFramework.Runtime",
     "rootNamespace": "SperidMobileFramework.Runtime",
     "references": [],
-    "includePlatforms": [],
-    "excludePlatforms": [
+    "includePlatforms": [
         "Android",
         "Editor",
         "macOSStandalone",
         "WindowsStandalone32",
         "WindowsStandalone64"
     ],
+    "excludePlatforms": [],
     "allowUnsafeCode": false,
     "overrideReferences": false,
     "precompiledReferences": [],
