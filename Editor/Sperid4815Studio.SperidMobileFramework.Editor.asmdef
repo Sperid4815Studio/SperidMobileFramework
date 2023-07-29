@@ -1,0 +1,16 @@
+{
+    "name": "Sperid4815Studio.SperidMobileFramework.Editor",
+    "rootNamespace": "SperidMobileFramework.Editor",
+    "references": [],
+    "includePlatforms": [],
+    "excludePlatforms": [
+        "Editor"
+    ],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
