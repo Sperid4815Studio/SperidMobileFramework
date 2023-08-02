@@ -43,5 +43,25 @@ namespace SperidMobileFramework.Runtime
 
             return result;
         }
+
+        public static bool IsJkeyWasPressedThisFrame()
+        {
+            if (Keyboard.current == null)
+            {
+                return false;
+            }
+
+            return Keyboard.current.jKey.wasPressedThisFrame;
+        }
+
+        public static bool IsJkeyWasReleasedThisFrame()
+        {
+            if (Keyboard.current == null)
+            {
+                return false;
+            }
+
+            return Keyboard.current.jKey.wasReleasedThisFrame;
+        }
     }
 }
