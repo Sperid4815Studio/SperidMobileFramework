@@ -12,7 +12,9 @@ namespace SperidMobileFramework.Runtime
         {
             _data = Resources.Load<EntryData>(EntryData.DefaultResourcesPath);
 
-           
+
+            GameStateManager.Instance.Initialize();
+            CanvasManager.Instance.Initialize();
             AddressableManager.Instance.Initialize();
             
 
