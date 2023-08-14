@@ -1,7 +1,7 @@
-using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
+using UnityEngine.InputSystem.EnhancedTouch;
 
 namespace SperidMobileFramework.Runtime
 {
@@ -19,9 +19,8 @@ namespace SperidMobileFramework.Runtime
             CanvasBase.OnCanvasDestroy += UnRegister;
 
             name = "CanvasManager";
-
             GameStateManager.Instance.OnStateChanged += OnStateChanged;
-
+            EnhancedTouchSupport.Enable();
             base.Initialize();
         }
 
@@ -56,6 +55,11 @@ namespace SperidMobileFramework.Runtime
             {
                 c.SetActive(state);
             }
+        }
+
+        private void OnDestroy()
+        {
+            EnhancedTouchSupport.Disable();
         }
     }
 }
